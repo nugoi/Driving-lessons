@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #fdfdfd;
+  color: #222;
+}
+img {
+  max-width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+
+.row {
+  display: flex;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.space-between {
+  justify-content: space-between;
+}
+.center {
+  align-items: center;
+}
+
+header {
+  background: #0a0a0a;
+  color: white;
+  padding: 18px 0;
+}
+
+.container {
+  width: 92%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+nav ul {
+  list-style: none;
+  gap: 18px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 50px 0;
+}
+
+.hero-text h1 {
+  font-size: 1.8rem;
+  margin-bottom: 12px;
+}
+
+.hero-text p {
+  color: #475569;
+  margin-bottom: 14px;
+  line-height: 1.6;
+}
+
+.btn {
+  background: #ff3434;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 6px;
+  display: inline-block;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.cards {
+  padding: 50px 0;
+  background: #f1f5f9;
+}
+
+.card {
+  background: white;
+  padding: 19px;
+  border-radius: 10px;
+  flex: 1;
+  min-width: 215px;
+  margin: 10px;
+}
+
+.card h3 {
+  margin-bottom: 8px;
+}
+.card p {
+  color: #475569;
+  line-height: 1.6;
+}
+
+.banner {
+  padding: 55px 0;
+  background: #ff3434;
+  color: white;
+  text-align: center;
+}
+
+.banner h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.banner p {
+  opacity: 1;
+  margin-bottom: 18px;
+}
+
+.info {
+  padding: 50px 0;
+}
+
+.info-box {
+  flex: 1;
+  min-width: 260px;
+  margin: 10px;
+  padding: 20px;
+  border-right: 4px solid #0f172a;
+  background: #fafafa;
+}
+
+.info-box h3 {
+  margin-bottom: 8px;
+}
+.info-box p {
+  color: #5379ad;
+  line-height: 1.6;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background: #e2e8f0;
+  color: #475569;
+  margin-top: 40px;
+}
+
+@media (max-width: 780px) {
+  nav ul {
+    display: none;
+  }
+  .hero-row {
+    flex-direction: column;
+  }
+  .cards-row {
+    flex-direction: column;
+  }
+  .info-row {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./project.css" />
+    <title>Flexbox Explorer</title>
+  </head>
+  <body>
+    <header>
+      <div class="container row space-between center">
+        <h2>Driving lessons</h2>
+        <nav>
+          <ul class="row">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#cards">Cards</a></li>
+            <li><a href="#info">Info</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="hero" class="hero">
+      <div class="container hero-row row wrap center" style="gap: 30px">
+        <div class="hero-text" style="flex: 1; min-width: 280px">
+          <h1>learn how to drive a car — if your a beginner.</h1>
+          <p>
+            we will teach you how to drive any car without a problem whether
+            it's a car or a truck
+          </p>
+          <p>
+            by taking our driving lessons beginners will be taught how to drive
+            and handle any car in different kind of scenarios
+          </p>
+          <a class="btn" href="#cards">Start Learning</a>
+        </div>
+
+        <div style="flex: 1; min-width: 280px">
+          <img src="./public/bmwm5.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section id="cards" class="cards">
+      <div class="container">
+        <h2 style="margin-bottom: 20px">Four things you should know</h2>
+        <div class="cards-row row wrap">
+          <div class="card">
+            <h3>1. seat belt</h3>
+            <p>
+              it is necesary to wear you seat belt because it might save you
+              life.
+            </p>
+          </div>
+          <div class="card">
+            <h3>2. turn signals</h3>
+            <p>
+              when you are making a turn you should always use you turn signals.
+            </p>
+          </div>
+          <div class="card">
+            <h3>3. slow driving</h3>
+            <p>
+              you should always drive under the speed limit never go over it.
+            </p>
+          </div>
+          <div class="card">
+            <h3>4. Check your mirrors</h3>
+            <p>when your driving you always need to Check your mirrors.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner">
+      <div class="container">
+        <h2>About the course</h2>
+        <p>The course is 3 months long so you will learn <b> everything</b></p>
+        <a class="btn" href="#info" style="background: white; color: #1e40af"
+          >Read More</a
+        >
+      </div>
+    </section>
+
+    <section id="info" class="info">
+      <div class="container info-row row wrap">
+        <div class="info-box">
+          <h3>Beginner-Friendly:</h3>
+          <p>in this course Students will learn the basics of driving .</p>
+          <p>price: 19.99</p>
+        </div>
+        <div class="info-box">
+          <h3>intermidiate:</h3>
+          <p>in this course you will learn how to drive an 18 wheeler.</p>
+          <p>price: 29.99</p>
+        </div>
+        <div class="info-box">
+          <h3>instructor:</h3>
+          <p>
+            in this course you will learn how to become a driving instructor
+          </p>
+          <p>price: 49.99</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      © contact us:
+      <p>Gmail: nugozanguri388@gmail.com</p>
+      <p>Number: +995 599-55-42-96</p>
+    </footer>
+  </body>
+</html>
